@@ -1,8 +1,7 @@
 
-* Returns {number} the ID of the resource responsible for calling the callback
-  that is currently being executed.
+* {number} 返回负责调用当前正被执行的回调函数的资源ID.
 
-For example:
+例如:
 
 ```js
 const server = net.createServer((conn) => {
