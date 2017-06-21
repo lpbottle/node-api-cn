@@ -83,7 +83,6 @@ console.log(b.indexOf('b', null));
 console.log(b.indexOf('b', []));
 ```
 
-If `value` is an empty string or empty `Buffer` and `byteOffset` is less
-than `buf.length`, `byteOffset` will be returned. If `value` is empty and
-`byteOffset` is at least `buf.length`, `buf.length` will be returned.
+如果 `value` 是空字符串或者空 `Buffer` 并且 `byteOffset` 小于 `buf.length`, 那么 `byteOffset` 将会被返回. 如果 `value` 为空并且
+`byteOffset` 大于等于 `buf.length`, 那么 `buf.length` 将会被返回.
 
